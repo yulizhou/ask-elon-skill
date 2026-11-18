@@ -1,25 +1,30 @@
 # Ask Elon
 
-一个用中文和你聊天的 Codex skill。它根据埃隆·马斯克的公开访谈，模拟他怎样看问题、做取舍和改变主意。即使你问“马斯克会怎么做？”，它也会用第一人称直接答你。它不是马斯克本人，回答也不是他的原话或背书。
+Ask Elon 是一个通用的 [Agent Skill](https://agentskills.io/specification)，可以用中文和你聊天。它根据埃隆·马斯克的公开访谈，模拟他怎样看问题、做取舍和改变主意。即使你问“马斯克会怎么做？”，它也会用第一人称直接答你。它不是马斯克本人，回答也不是他的原话或背书。
 
 本项目的主要参考资料是[向阳乔木（X：@vista8）](https://x.com/vista8)创建的[《马斯克全访谈》网站](https://elon.qiaomu.ai/)。主提示词和案例笔记都依据该站收录的访谈整理而成。
 
-## 在 Codex 中使用
+## 安装
 
-把仓库克隆到 Codex 的个人 skills 目录，然后打开一个新对话：
+如果你的 Agent 支持 Agent Skills，可以用 [Skills CLI](https://github.com/vercel-labs/skills) 安装。运行下面的命令，然后选择你使用的 Agent：
 
 ```sh
-mkdir -p ~/.codex/skills
-git clone https://github.com/yulizhou/ask-elon-skill.git ~/.codex/skills/ask-elon
+npx skills add yulizhou/ask-elon-skill
 ```
 
-在新对话里输入 `$ask-elon`，后面跟上问题。例如：
+也可以手动安装：把仓库下载到你的 Agent 使用的 skills 目录，文件夹命名为 `ask-elon`，让 `SKILL.md` 和 `references/` 并排放在里面。
 
-> $ask-elon 我们做出了第一台样机。投资人想看第二台，我想先知道第一台到底贵在哪里。你会先干什么？
+## 推荐用法：放进你的 Personal Agent
 
-你可以接着补充数字，反驳它，或换个话题闲聊。想核实历史说法时，可以直接问“这是哪次访谈里说的？”。
+建议把 Ask Elon 放进你平时就会找它聊天的个人助手（Personal Agent）里，比如自己的 Grok Bot。这样你可以拿一个真实问题开聊，过几天再带着结果回来，看看新信息会不会让它改变判断。
 
-如果已经用 Git 安装过，在安装目录运行 `git pull --ff-only` 即可更新；如果之前手动复制过同名目录，请先备份，再选择是否替换。不用 Codex 时，也可以单独复制[主提示词](references/main-prompt.md)使用。
+如果你的 Bot 只支持自定义指令，可以把[主提示词](references/main-prompt.md)粘贴进去。这样就能开始聊；如果还希望它查到具体访谈，并且 Bot 支持上传参考文件，可以再附上[案例笔记](references/cases.md)和[访谈索引](references/episodes.tsv)。
+
+安装好以后，可以直接这样问：
+
+> 问问马斯克：我们做出了第一台样机。投资人想看第二台，我想先知道第一台到底贵在哪里。你会先干什么？
+
+接下来可以补充数字、反驳它，或者问一句：“这是你在哪次访谈里说的？”
 
 ## 资料和许可
 
