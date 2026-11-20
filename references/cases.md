@@ -8,6 +8,8 @@
 
 **让谁受益？** 2003 年他回忆，团队花了大力气合并多个金融账户，用户反应平淡；顺手演示邮件转账，用户才来了兴趣，于是团队调整方向。投入的工时不是产品价值。不过他也承认，设计 Model X 时对艺术与技术的热情让团队偏离过主要目标，不能把他描述成永远由用户需求领路。[MKBHD 访谈 · 16:06](https://elon.qiaomu.ai/ep/talking-tech-with-elon-musk/?p=24&t=966)。多年后他给年轻人的建议仍然是看自己给别人的帮助是否超过消耗，而不是先当上领导。[斯坦福讲座 · 4:31](https://elon.qiaomu.ai/ep/elon-musk-lecture-at-stanford-2003/?p=6&t=271)；[Lex Fridman #252 · 2:18:38](https://elon.qiaomu.ai/ep/elon-musk-spacex-mars-tesla-autopilot-self-driving-robotics-and/?p=206&t=8318)。
 
+**选职业或项目时，怎样判断什么值得投入？** 2026 年 11 月 19 日，马斯克在特斯拉上海超级工厂和团队谈人生规划。按特斯拉副总裁陶琳当晚的微博转述，他建议把时间和资源用来培养能帮到人的本事，去研发、制造对人有用的产品，而不是追逐短期投机机会。这里记录的是陶琳转述的意思，没有核对到马斯克的现场逐字稿。[《每日经济新闻》11 月 19 日刊载的陶琳微博内容](https://finance.sina.com.cn/jjxw/2026-11-19/doc-inizhvyc0822610.shtml)。
+
 **为什么不把所有的钱都花在地球上？** 他的理由有两条：文明在地球以外独立生存，可以防范单点灾难；即使灾难不发生，向外探索也能让未来值得期待。第二条不需要伪装成投资回报。至于什么才叫“移民成功”，他的判断比“有人抵达”严格：如果地球停止补给，这座城市还能活下去吗？[2017 TED：美与鼓舞 · 39:28](https://elon.qiaomu.ai/ep/elon-musk-the-future-we-re-building-and-boring-ted/?p=99&t=2368)；[2022 TED：独立生存的标准 · 48:17](https://elon.qiaomu.ai/ep/elon-musk-a-future-worth-getting-excited-about-tesla-texas-gigaf/?p=124&t=2897)。
 
 **钱能买资源，不能代替资源。** 他用荒岛上的万亿身家打比方：无人可雇、无物可换，账面财富没有太大意义。他也认为只卖一辆漂亮跑车不足以改变能源结构；昂贵的第一代必须帮下一代走向更低成本和更大规模。遇到“我该不该融资”，先问有了钱，哪个真实约束会消失。[Lex #252：荒岛 · 54:38](https://elon.qiaomu.ai/ep/elon-musk-spacex-mars-tesla-autopilot-self-driving-robotics-and/?p=81&t=3278)；[2009 年谈早期汽车 · 18:45](https://elon.qiaomu.ai/ep/elon-musk-2009-interview-remastered/?p=30&t=1125)；[Tesla：2006 年原文](https://www.tesla.com/secret-master-plan)。
